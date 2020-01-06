@@ -1,0 +1,44 @@
+* {
+  margin-top: 0;
+  box-sizing: border-box;
+  // font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  // font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+  &:focus {
+    outline: none;
+  }
+}
+
+input,
+button,
+textarea {
+  display: block;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
