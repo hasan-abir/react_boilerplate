@@ -1,13 +1,10 @@
 * {
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Roboto", sans-serif;
   /* font-family: "Poppins", sans-serif; */
-}
-
-body {
-  margin: 0;
 }
 
 a {
@@ -35,8 +32,4 @@ button,
 textarea {
   display: block;
   font-size: 1rem;
-}
-
-textarea {
-  resize: none;
 }
