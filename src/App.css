@@ -1,9 +1,9 @@
 * {
   margin-top: 0;
   box-sizing: border-box;
-  // font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-family: "Roboto", sans-serif;
-  // font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 body {
@@ -23,13 +23,11 @@ button {
   cursor: pointer;
 }
 
-input,
-button,
-textarea,
-select {
-  &:focus {
-    outline: none;
-  }
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+  outline: none;
 }
 
 input,
